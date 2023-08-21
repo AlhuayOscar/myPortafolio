@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { links } from "@/lib/data";
 import Link from "next/link";
@@ -11,8 +11,28 @@ export default function Header() {
   const { activeSection, setActiveSection, setTimeOfLastClick } =
     useActiveSectionContext();
 
+  const [isMouseOver, setIsMouseOver] = useState(false);
+
+  useEffect(() => {
+    const timeoutId = setTimeout(() => {
+      setIsMouseOver(false);
+    }, 5000);
+
+    return () => {
+      clearTimeout(timeoutId);
+    };
+  }, [isMouseOver]);
+
   return (
-    <header className="z-[999] relative">
+    <header
+      className={clsx("z-[999] relative", {
+        "opacity-20": !isMouseOver,
+        "opacity-100": isMouseOver,
+        transition: "opacity 0.3s ease",
+      })}
+      onMouseEnter={() => setIsMouseOver(true)}
+      onMouseLeave={() => setIsMouseOver(false)}
+    >
       <motion.div
         className="fixed top-0 left-1/2 h-[4.5rem] w-full rounded-none border border-white border-opacity-40 bg-white bg-opacity-80 shadow-lg shadow-black/[0.03] backdrop-blur-[0.5rem] sm:top-6 sm:h-[3.25rem] sm:w-[36rem] sm:rounded-full dark:bg-gray-950 dark:border-black/40 dark:bg-opacity-75"
         initial={{ y: -100, x: "-50%", opacity: 0 }}

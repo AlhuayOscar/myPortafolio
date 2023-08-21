@@ -38,25 +38,25 @@ export const experiencesData = [
     title: "Front-End Developer",
     location: "Buenos Aires, Argentina",
     description:
-      "Trabajé como desarrollador front-end durante 3 años. Estuve creando páginas web y diseños front-end para comercios locales",
+      "I worked as a front-end developer for 3 years. I was creating web pages and front-end designs for local businesses.",
     icon: React.createElement(CgWorkAlt),
     date: "2019 - 2021",
   },
   {
-    title: "Graduado de SoyHenry (Bootcamp)",
+    title: "SoyHenry Graduate (Bootcamp)",
     location: "Buenos Aires, Argentina",
     description:
-      "Me gradué después de 5 meses de estudio y esfuerzo. Al cabo de la primera semana me encontraba trabajando como desarrollador Full-Stack por mi desempeño.",
+      "I graduated after 5 months of studying and hard work. By the end of the first week, I was already working as a Full-Stack developer due to my performance. I was recognized by the bootcamp and several of my classmates for my continuous proactivity and positive attitude.",
     icon: React.createElement(LuGraduationCap),
     date: "2023",
   },
   {
-    title: "Full Stack Developer Autónomo",
+    title: "Freelance Full Stack Developer",
     location: "Buenos Aires, Argentina",
     description:
-      "Desde 2023 hasta el presente, trabajo como Full Stack Developer autónomo. Proponiendo y diseñando páginas a clientes del exterior y también he contribuido al crecimiento de una startup local. Mi experiencia abarca desde el desarrollo front-end hasta el back-end. Desarrollar Landings, E-commerce y Paneles de Administración son mi especialidad",
-    icon: React.createElement(FaReact), // Agrega el icono deseado
-    date: "2023 - presente",
+      "From 2023 to the present, I've been working as a freelance Full Stack Developer. I create and design websites for clients abroad and have also contributed to the growth of a local startup. My experience spans from front-end to back-end development. Building Landing pages, E-commerce sites, and Admin Panels are my specialty.",
+    icon: React.createElement(FaReact),
+    date: "2023 - Present",
   },
 ] as const;
 
