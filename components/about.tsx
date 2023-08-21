@@ -17,33 +17,35 @@ export default function About() {
       transition={{ delay: 0.175 }}
       id="about"
     >
-      <SectionHeading>About me</SectionHeading>
-      <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
-      </p>
-
-      <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
-      </p>
+      <SectionHeading>About Me</SectionHeading>
+      <div>
+        <p className="mb-3">
+          Hey there! My name is Oscar. I'm a Full Stack developer with a strong
+          desire to experiment, progress, and share experiences in the vast
+          world of technology. Since I was a kid, I've been interested in being
+          an inventor of some robot, machinery, or technology that everyone uses
+          everywhere. Now, I believe I have the opportunity thanks to
+          programming ❤️.
+        </p>
+      </div>
+      <div>
+        <p className="mb-3">
+          I create layouts, prototypes, and wireframes for digital businesses. I
+          integrate these technologies with the server and database, and I also
+          build Back-End systems to handle your data seamlessly.
+        </p>
+      </div>
+      <div>
+        <p>
+          My current goal is to develop all my knowledge and create projects
+          that have an impact on my environment and the whole world. You can
+          easily reach me here:
+        </p>
+        <div>
+          <p>Email -{">"} oscar_alhuay2001@hotmail.com</p>
+          <p>Github -{">"} github.com/AlhuayOscar</p>
+        </div>
+      </div>
     </motion.section>
   );
 }

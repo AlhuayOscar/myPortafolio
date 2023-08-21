@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import mexplorerfront from "@/public/mexplorerfront.png";
+import mexplorerback from "@/public/mexplorerback.png";
+import urbanclub from "@/public/urbanclub.png";
 
 export const links = [
   {
@@ -35,52 +35,52 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
-    description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
     title: "Front-End Developer",
-    location: "Orlando, FL",
+    location: "Buenos Aires, Argentina",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Trabajé como desarrollador front-end durante 3 años. Estuve creando páginas web y diseños front-end para comercios locales",
     icon: React.createElement(CgWorkAlt),
     date: "2019 - 2021",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Graduado de SoyHenry (Bootcamp)",
+    location: "Buenos Aires, Argentina",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "Me gradué después de 5 meses de estudio y esfuerzo. Al cabo de la primera semana me encontraba trabajando como desarrollador Full-Stack por mi desempeño.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2023",
+  },
+  {
+    title: "Full Stack Developer Autónomo",
+    location: "Buenos Aires, Argentina",
+    description:
+      "Desde 2023 hasta el presente, trabajo como Full Stack Developer autónomo. Proponiendo y diseñando páginas a clientes del exterior y también he contribuido al crecimiento de una startup local. Mi experiencia abarca desde el desarrollo front-end hasta el back-end. Desarrollar Landings, E-commerce y Paneles de Administración son mi especialidad",
+    icon: React.createElement(FaReact), // Agrega el icono deseado
+    date: "2023 - presente",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Mexplorertours",
     description:
       "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+    imageUrl: mexplorerfront,
   },
   {
-    title: "rmtDev",
+    title: "Mexplorer Admin Panel",
     description:
       "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+    imageUrl: mexplorerback,
   },
   {
-    title: "Word Analytics",
+    title: "Urbanclub.club",
     description:
       "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: urbanclub,
   },
 ] as const;
 
@@ -97,11 +97,10 @@ export const skillsData = [
   "Prisma",
   "MongoDB",
   "Redux",
-  "GraphQL",
-  "Apollo",
+  "Arduino",
+  "Boostrap",
   "Express",
   "PostgreSQL",
-  "Python",
-  "Django",
+  "React Native",
   "Framer Motion",
 ] as const;
