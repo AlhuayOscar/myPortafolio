@@ -65,21 +65,46 @@ export const projectsData = [
     title: "Mexplorertours",
     description:
       "I developed the layout, design, forms, and integration with the backend of the entire page.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+    tags: [
+      "React",
+      "Node.js",
+      "i18n",
+      "nodemailer",
+      "Stripe",
+      "Next.js",
+      "Styled Components",
+    ],
     imageUrl: mexplorerfront,
   },
   {
     title: "Mexplorer Admin Panel",
     description:
       "We set up the backend infrastructure and implemented security measures like Anti-XSS, Encryption, and robust Authentication.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+    tags: [
+      "React",
+      "Node.js",
+      "MongoDB",
+      "Mongoose",
+      "Amazon AWS",
+      "Next.js",
+      "Tailwind",
+    ],
     imageUrl: mexplorerback,
   },
   {
     title: "Urbanclub.club",
     description:
       "I developed User Registration and Login, integrated backend for all forms, and designed cards as well as implemented ticket buying and selling.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+    tags: [
+      "React",
+      "Redux + Toolkit",
+      "SQL",
+      "phpMyAdmin ",
+      "Sequelize",
+      "CSS Modules",
+      "JWT",
+      "Paypal",
+    ],
     imageUrl: urbanclub,
   },
 ] as const;
@@ -99,8 +124,12 @@ export const skillsData = [
   "Redux",
   "Arduino",
   "Boostrap",
+  "Swift",
+  "SQL",
   "Express",
   "PostgreSQL",
+  "phpMyAdmin",
   "React Native",
   "Framer Motion",
+  "Material UI",
 ] as const;
