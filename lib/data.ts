@@ -64,21 +64,21 @@ export const projectsData = [
   {
     title: "Mexplorertours",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
+      "I developed the layout, design, forms, and integration with the backend of the entire page.",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
     imageUrl: mexplorerfront,
   },
   {
     title: "Mexplorer Admin Panel",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
+      "We set up the backend infrastructure and implemented security measures like Anti-XSS, Encryption, and robust Authentication.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
     imageUrl: mexplorerback,
   },
   {
     title: "Urbanclub.club",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+      "I developed User Registration and Login, integrated backend for all forms, and designed cards as well as implemented ticket buying and selling.",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
     imageUrl: urbanclub,
   },
