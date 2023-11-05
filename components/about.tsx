@@ -20,7 +20,7 @@ export default function About() {
       <SectionHeading>About Me</SectionHeading>
       <div>
         <p className="mb-3">
-          Hey there! My name is Oscar. I'm a Full Stack developer with a strong
+          Hey there! I'm a Developer with a strong
           desire to experiment, progress, and share experiences in the vast
           world of technology. Since I was a kid, I've been interested in being
           an inventor of some robot, machinery, or technology that everyone uses
