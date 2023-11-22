@@ -20,7 +20,7 @@ export default function About() {
       <SectionHeading>About Me</SectionHeading>
       <div>
         <p className="mb-3">
-          Hey there! I'm a Developer with a strong
+          I'm a Developer with a strong
           desire to experiment, progress, and share experiences in the vast
           world of technology. Since I was a kid, I've been interested in being
           an inventor of some robot, machinery, or technology that everyone uses
@@ -34,17 +34,6 @@ export default function About() {
           integrate these technologies with the server and database, and I also
           build Back-End systems to handle your data seamlessly.
         </p>
-      </div>
-      <div>
-        <p>
-          My current goal is to develop all my knowledge and create projects
-          that have an impact on my environment and the whole world. You can
-          easily reach me here:
-        </p>
-        <div>
-          <p>Email -{">"} oscar_alhuay2001@hotmail.com</p>
-          <p>Github -{">"} github.com/AlhuayOscar</p>
-        </div>
       </div>
     </motion.section>
   );

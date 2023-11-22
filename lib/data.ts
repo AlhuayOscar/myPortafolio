@@ -3,9 +3,10 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import mexplorerfront from "@/public/mexplorerfront.png";
+import libertapp from "@/public/libertapp.png";
 import mexplorerback from "@/public/mexplorerback.png";
 import urbanclub from "@/public/urbanclub.png";
-
+import edupluss from "@/public/edupluss.png";
 export const links = [
   {
     name: "Home",
@@ -61,6 +62,49 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "LibertApp",
+    description:
+      "I developed the layout, design, components, worked on QA of the entire Front, Landing, Dashboard.",
+    tags: [
+      "React",
+      "Typescript",
+      "Tailwind",
+      "Git",
+      "MUI",
+      "Docker",
+      "Framer-Motion",
+      "Formik",
+      "Firebase",
+      "AWS S3",
+      "AWS Lambda",
+      "OCR",
+      "DynamoDB",
+    ],
+    imageUrl: libertapp,
+  },
+  {
+    title: "Edupluss",
+    description:
+      "I developed the layout, design, forms, and integration with the backend of the entire page.",
+    tags: [
+      "React",
+      "APIs",
+      "Typescript",
+      "Node.js",
+      "SQL",
+      "Tailwind",
+      "ChartJs",
+      "Next.js",
+      "Node.js",
+      "Sequelize",
+      "Postgres",
+      "SQL",
+      "Firebase",
+      "Tailwind",
+    ],
+    imageUrl: edupluss,
+  },
   {
     title: "Mexplorertours",
     description:
@@ -132,4 +176,23 @@ export const skillsData = [
   "React Native",
   "Framer Motion",
   "Material UI",
+  "MUI",
+  "Docker",
+  "Formik",
+  "Firebase",
+  "AWS S3",
+  "AWS Lambda",
+  "OCR",
+  "DynamoDB",
+  "APIs",
+  "ChartJs",
+  "Sequelize",
+  "Styled Components",
+  "i18n",
+  "nodemailer",
+  "Stripe",
+  "Redux + Toolkit",
+  "CSS Modules",
+  "JWT",
+  "Paypal",
 ] as const;
