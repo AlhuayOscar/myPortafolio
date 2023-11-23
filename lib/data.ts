@@ -39,7 +39,7 @@ export const experiencesData = [
     title: "Front-End Developer",
     location: "Buenos Aires, Argentina",
     description:
-      "I worked as a front-end developer for 3 years. I was creating web pages and front-end designs for local businesses.",
+      "Worked as a front-end developer for 3 years. I was creating web pages and front-end designs for local businesses.",
     icon: React.createElement(CgWorkAlt),
     date: "2019 - 2021",
   },
@@ -47,7 +47,7 @@ export const experiencesData = [
     title: "SoyHenry Graduate (Bootcamp)",
     location: "Buenos Aires, Argentina",
     description:
-      "I graduated after 5 months of studying and hard work. By the end of the first week, I was already working as a Full-Stack developer due to my performance. I was recognized by the bootcamp and several of my classmates for my continuous proactivity and positive attitude.",
+      "Graduated after 5 months of studying and hard work. By the end of the first week, I was already working as a Full-Stack developer due to my performance. I was recognized by the bootcamp and several of my classmates for my continuous proactivity and positive attitude.",
     icon: React.createElement(LuGraduationCap),
     date: "2023",
   },
@@ -65,7 +65,7 @@ export const projectsData = [
   {
     title: "LibertApp",
     description:
-      "I developed the layout, design, components, worked on QA of the entire Front, Landing, Dashboard.",
+      "Developed the layout, design, components, worked on QA of the entire Front, Landing, Dashboard.",
     tags: [
       "React",
       "Typescript",
@@ -86,7 +86,7 @@ export const projectsData = [
   {
     title: "Edupluss",
     description:
-      "I developed the layout, design, forms, and integration with the backend of the entire page.",
+      "Refactored the whole layout, design, forms, and integration with the backend of the entire page.",
     tags: [
       "React",
       "APIs",
@@ -108,7 +108,7 @@ export const projectsData = [
   {
     title: "Mexplorertours",
     description:
-      "I developed the layout, design, forms, and integration with the backend of the entire page.",
+      "Developed the layout, design, forms, and integration with the backend of the entire page.",
     tags: [
       "React",
       "Node.js",
@@ -138,7 +138,7 @@ export const projectsData = [
   {
     title: "Urbanclub.club",
     description:
-      "I developed User Registration and Login, integrated backend for all forms, and designed cards as well as implemented ticket buying and selling.",
+      "Developed User Registration and Login, integrated backend for all forms, and designed cards as well as implemented ticket buying and selling.",
     tags: [
       "React",
       "Redux + Toolkit",
@@ -171,28 +171,28 @@ export const skillsData = [
   "Swift",
   "SQL",
   "Express",
-  "PostgreSQL",
-  "phpMyAdmin",
-  "React Native",
-  "Framer Motion",
-  "Material UI",
   "MUI",
   "Docker",
   "Formik",
   "Firebase",
   "AWS S3",
   "AWS Lambda",
+  "Styled Components",
   "OCR",
   "DynamoDB",
   "APIs",
   "ChartJs",
   "Sequelize",
-  "Styled Components",
   "i18n",
   "nodemailer",
   "Stripe",
   "Redux + Toolkit",
-  "CSS Modules",
   "JWT",
   "Paypal",
+  "PostgreSQL",
+  "phpMyAdmin",
+  "React Native",
+  "Framer Motion",
+  "CSS Modules",
+  "Material UI",
 ] as const;
