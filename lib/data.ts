@@ -36,20 +36,20 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: "Freelance Full Stack Developer",
+    location: "Buenos Aires, Argentina",
+    description:
+      "From 2023 to the present, I've been working as a freelance Full Stack Developer. I create and design websites for clients abroad and have also contributed to the growth of a local startup. My experience spans from front-end to back-end development. Building Landing pages, E-commerce sites, and Admin Panels are my specialty.",
+    icon: React.createElement(FaReact),
+    date: "2023 - Present",
+  },
+  {
     title: "Full-Stack Developer",
     location: "Buenos Aires, Argentina",
     description:
       "Working for almost a year for Colombia and Mexico startups. Involved in Open Source projects, interested in mobile development and SEO management, and experienced in the implementation of AI.",
     icon: React.createElement(CgWorkAlt),
     date: "2023",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Buenos Aires, Argentina",
-    description:
-      "Worked as a front-end developer for 3 years. I was creating web pages and front-end designs for local businesses.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
   },
   {
     title: "SoyHenry Graduate (Bootcamp)",
@@ -60,12 +60,12 @@ export const experiencesData = [
     date: "2023",
   },
   {
-    title: "Freelance Full Stack Developer",
+    title: "Front-End Developer",
     location: "Buenos Aires, Argentina",
     description:
-      "From 2023 to the present, I've been working as a freelance Full Stack Developer. I create and design websites for clients abroad and have also contributed to the growth of a local startup. My experience spans from front-end to back-end development. Building Landing pages, E-commerce sites, and Admin Panels are my specialty.",
-    icon: React.createElement(FaReact),
-    date: "2023 - Present",
+      "Passionate developer with a flair for crafting dynamic websites that elevate diverse local businesses. Adept in seamless front-end designs, e-commerce solutions, and admin panels. Contributed to local projects, engaged in open-source initiatives, and delved into web development and AI implementation.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2020 - Present",
   },
 ] as const;
 
