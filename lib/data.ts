@@ -44,14 +44,6 @@ export const experiencesData = [
     date: "2023 - Present",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Buenos Aires, Argentina",
-    description:
-      "Working for almost a year for Colombia and Mexico startups. Involved in Open Source projects, interested in mobile development and SEO management, and experienced in the implementation of AI.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2023",
-  },
-  {
     title: "SoyHenry Graduate (Bootcamp)",
     location: "Buenos Aires, Argentina",
     description:
